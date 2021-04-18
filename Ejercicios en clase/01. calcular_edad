@@ -1,0 +1,16 @@
+Algoritmo calcular_edad
+	// Ingrese el año de nacimiento y año actual 
+	// para determinar la edad de una persona
+	Definir birth_year, current_year, age Como Entero
+	
+	Escribir "Ingrese el año actual"
+	Leer current_year
+	
+	Escribir "Ingrese el año de nacimiento"
+	Leer birth_year
+	
+	age = current_year - birth_year
+	
+	Escribir "La edad de la persona es de ",  age, " años."
+	
+FinAlgoritmo
