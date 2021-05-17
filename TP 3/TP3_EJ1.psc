@@ -8,11 +8,11 @@ Algoritmo tablasDeMultiplicar
 	
 	Definir multiplicando, multiplicador Como Entero
 	
-	Para multiplicando<-1 Hasta 10 Con Paso 1 Hacer
+	Para multiplicando <- 1 Hasta 10 Con Paso 1 Hacer
 		Escribir 'Tabla del ' multiplicando
 		Escribir '-------------------------------'
-		Para multiplicador<-1 Hasta 10 Con Paso 1 Hacer
-			resultado = multiplicando * multiplicador
+		Para multiplicador <- 1 Hasta 10 Con Paso 1 Hacer
+			resultado <- multiplicando * multiplicador
 			Escribir multiplicando ' * ' multiplicador ' = ' resultado
 		Fin Para
 		Escribir '///////////////////////////////'
