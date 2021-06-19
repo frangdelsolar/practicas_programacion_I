@@ -12,7 +12,7 @@
 //	Luego recorrer el arreglo y mostrar los números que contiene el arreglo.
 //
 
-Algoritmo numerosPares
+Algoritmo numeros_pares
 
 	Dimension pares[100]
 	Definir valor_par como Entero

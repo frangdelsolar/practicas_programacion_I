@@ -21,11 +21,11 @@ Algoritmo encontrar_numero
 	Dimension aleatorios[20]	
 	
 	// Inicialización de variables
-	encontrar = Aleatorio(0, 10)
+	encontrar = Aleatorio(0, 100)
 	encontrado = Falso
 
 	Para i <- 0 Hasta 19 Con Paso 1 Hacer
-		aleatorios[i] = Aleatorio(0, 10)
+		aleatorios[i] = Aleatorio(0, 100)
 	Fin Para
 	
 	// Salida
